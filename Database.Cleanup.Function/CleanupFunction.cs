@@ -36,6 +36,7 @@ namespace Database.Cleanup.Function
                         {
                             if (response.IsSuccessStatusCode)
                             {
+
                             }
 
                         }
