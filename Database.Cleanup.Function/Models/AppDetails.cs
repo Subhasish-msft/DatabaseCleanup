@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Database.Cleanup.Function
+﻿namespace Database.Cleanup.Function.Models
 {
     public class AppDetails
     {
@@ -10,7 +6,9 @@ namespace Database.Cleanup.Function
         public string Url { get; set; }
         public string AuthKey { get; set; }
     }
-    public class AppDetil {
+    public class AppDetail
+    {
+        public string ChannelWebhookUrl { get; set; }
         public AppDetails[] AppDetails { get; set; }
     }
 }
